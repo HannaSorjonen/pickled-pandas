@@ -16,6 +16,7 @@ h1 {
   margin-right: 10px;
   margin-left: 10px;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .sectiontitle {
@@ -25,8 +26,8 @@ h1 {
 	outline: 1px solid black;
 /*	It looks better with float but assignment stated to use position and offset */
 /*	float: right;*/
-	position: relative;
-	right: -66.7%;
+	position: absolute;
+	right: 0px;
 	width: 33.3%;
 	display: block;
 }
@@ -47,6 +48,7 @@ p {
 	clear: both;
 	padding: 10px;
 	margin: 5px;
+  margin-top: 30px;
 }
 
 /*Responsive Grid Framework*/
@@ -65,7 +67,7 @@ p {
 
 .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
 	float: left;
-
+  
   }
 
   .col-lg-1 {

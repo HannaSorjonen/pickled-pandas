@@ -1,1 +1,81 @@
+body {
+  font-size: 16px;
+  background-color: #ffffff;
+}
 
+/*HEADER*/
+
+#header-nav {
+  background-color: #ff944d;
+  border-radius: 0;
+  border-bottom: 1px solid black;
+  margin-bottom: 0px;
+}
+
+.navbar {
+	border: none;
+}
+
+.navbar-brand h1 {
+	color: #33334d;
+	margin-top: -10px;
+	margin-left: 0px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #33334d;
+  background-color: #ff944d;
+}
+
+.navbar-header button.navbar-toggle {
+}
+
+.navbar-header button.navbar-toggle:hover {
+	background-color: #ffffff;
+}
+#nav-list {
+	border: 1px solid;
+}
+
+#nav-list a {
+  color: #33334d;
+  text-align: center;
+  font-size: 1.2em
+  background-color: #c2c2d6;
+}
+
+#nav-list a:hover {
+  background-color: #ffffff;
+}
+
+#collapsable-nav {
+	border: none;
+}
+
+div hr {
+	margin: 0px;
+    border-top: 1px solid #33334d;
+}
+
+/*HEADER END*/
+
+/*MAIN CONTENT*/
+
+#menu-title {
+	padding-bottom: 20px;
+}
+
+.menu-description {
+	background-color: #ccd9ff;
+	border: 1px solid black;
+	margin: 0px 10px;
+	height: 1000px;
+}
+
+.menu-description p {
+	padding: 0 20px;
+}
